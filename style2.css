@@ -1,0 +1,202 @@
+
+/* Your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+  
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    display: inline-block;
+    background-color: #221e1e;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    header, nav, section, footer {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+
+body {
+    width: auto;
+    height: auto;
+    background-color: gray;
+    margin: auto;
+  
+    animation-name: warna;
+    animation-duration: 5s;
+  
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  @keyframes warna {
+    0% {
+        background-color: rgb(63, 63, 63);
+    }
+    30% {
+        background-color: rgb(99, 90, 90);
+    }
+    80% {
+        background-color: rgb(53, 51, 51);
+    }
+    100% {
+        background-color: rgb(27, 26, 26);
+    } 
+}
+
+section ul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000; 
+}
+
+th {
+    color: #000000;
+}
+
+footer {
+    color: #ddd;
+}
+
+h1 {
+    color: #ddd;
+}
+ul {
+    color: #ddd;
+}
+tr {
+    color: #ddd;
+}
+h2 {
+    color: #ddd;
+}
+p {
+    color: #ddd;
+}
+
+
+img {
+  /* height: 200px;
+  width: 200px; */
+  object-fit: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 80px;
+  align-items: center;
+  grid-gap: 30px;
+}
+.grid > article {
+  box-shadow: 10px 5px 5px 0px black;
+  border-radius: 30px;
+  text-align: center;
+  background: rgb(76, 78, 78);
+  width: 200px;
+  height: auto;
+  transition: transform;
+}
+.grid > article image {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.konten {
+  /* text-transform: uppercase; */
+  cursor: progress;
+}
+.grid > article:hover {
+  /* transform: rotate(15deg);
+    transform: scale(0.5); */
+  transform: scale(1.2);
+  /* transform: translate(50px); */
+}
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+.navbar-brand h2 {
+  color: #000000;
+}
+
+
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+
+* {
+  font-family: sans-serif;
+}
+
+
+.grid > article h2 {
+  font-size: large;
+  margin-top: 5px;
+  font-weight: bold;
+}
